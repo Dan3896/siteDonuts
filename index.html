@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Donuts Verso</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body id="home">
+    <header>
+        <nav>
+            <a href="#home">Home</a>  
+            <a href="#destaques">Destaques</a>
+            <a href="#cardapio">Cardapio</a>  
+            <a href="#sobre">Sobre</a>  
+            <a href="#login" id="btnLogin">Admin</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao">
+            <h1>Bem-vindo ao DonutsVerso</h1>
+        </section>
+
+        <section id="destaques">
+            <h2>Destaques</h2>
+            <div class="carros-destaque">
+                <div class="display">
+                    <h3>Donuts chocolate</h3>
+                    <img src="DoonutChocolate-png.webp" width="300px">
+                    <p>Donuts de chocolate com gotas de chocolate</p>
+                    <p>R$ 11.99</p>
+                </div>
+                <div class="display">
+                    <h3>Donuts Morango</h3>
+                    <img src="morango.png"  width="300px">
+                    <p>Donuts de morango com confetti</p>
+                    <p>R$ 12.50</p>
+                </div>
+                <div class="display">
+                    <h3>Donuts pistache</h3>
+                    <img src="DonutsPistache.png"  width="300px">
+                    <p>Donuts de pistache edição limitada de pascoa.</p>
+                    <P>R$ 14.99</P>
+                </div>
+            </div>
+        </section>
+
+        <section id="cardapio">
+            <h2>Cardapio</h2>
+            <div class="carros-destaque">
+                <div class="cardapio">
+                    <h3>Donuts chocolate</h3>
+                    <img src="DoonutChocolate-png.webp"  width="300px">
+                    <p>Donuts de chocolate com gotas de chocolate</p>
+                    <p>R$ 11.99</p>
+                </div>
+                <div class="cardapio">
+                    <h3>Donuts Morango</h3>
+                    <img src="morango.png"  width="300px">
+                    <p>Donuts de morango com confetti</p>
+                    <p>R$ 12.50</p>
+                </div>
+                <div class="cardapio">
+                    <h3>Donuts pistache</h3>
+                    <img src="DonutsPistache.png"  width="300px">
+                    <p>Donuts de pistache edição limitada de pascoa.</p>
+                    <P>R$ 14.99</P>
+                </div>
+            </div>
+        </section>
+
+        <dialog id="login">
+            <span id="btnFechar">&times;</span>
+            <form>
+                <h2>LOGIN</h2>
+                <label for="email">E-mail:</label>
+                <input type="text" name="email" id="email" placeholder="Insira seu E-mail">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                <button type="submit" id="btnEntrar">Entrar</button>
+            </form>
+        </dialog>
+
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja especializada em Donuts gourmet</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2024 - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

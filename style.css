@@ -1,0 +1,204 @@
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    /*background: linear-gradient(to bottom, #000000, #0939c7);*/
+    background-color: #000000;
+}
+
+nav{
+    background-color: #000000;
+    position: fixed;
+    align-items: left;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+nav a:hover {
+    background-image: linear-gradient(to bottom, #0939c7, #2e2779);
+}
+
+nav a:last-child{margin-left: auto;}
+
+
+.apresentacao {
+    text-align: center;
+    padding: 50px;
+    /*background: linear-gradient(to bottom, #000000, #0939c7);*/
+    /*background-color: #13327e;*/
+    color: white;
+    /*margin-left: -10px;
+    margin-right: -10px;*/
+    display: block;
+}
+
+.apresentacao h1 {
+    font-size: 2.5em;
+}
+
+.apresentacao p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.apresentacao a {
+    margin: 10px;
+}
+
+.direciona-orcamento {
+    margin-top: 5px;
+    background: linear-gradient(to bottom, #000000, #0939c7);
+    /*background-color: #2554cb;*/
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.direciona-orcamento:hover {
+    background-color: #ee2c00;
+}
+
+
+#destaques {
+    margin: 0px;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+#destaques h2 {
+    font-size: 1.8em;
+    margin: 0px;
+}
+
+.display{
+    background: linear-gradient(to bottom, #000000, #0939c7);
+    /*background-color: #fff;*/
+    padding: 15px 10px;
+    flex-basis: calc(30%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    transition: flex-grow 0.5s ease-in-out;
+}
+
+.display:hover{
+    flex-grow: 30;
+}
+
+.carros-destaque {
+    background: linear-gradient(to bottom, #000000, #0939c7);
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.cardapio{
+    background: linear-gradient(to bottom, #000000, #0939c7);
+    padding: 15 px 0px;
+    margin: 0px;
+    flex-basis: calc(30%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+}
+
+.carros-destaque div h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #345fcc;
+    padding-bottom: 5px;
+}
+
+
+dialog {
+    border: none;   
+    padding: 60px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    background-color: #13327e;
+    color: #fff;
+}
+
+dialog form {
+    display: flex;
+    flex-direction: column;
+}
+
+dialog label {
+    margin-top: 10px;
+}
+
+dialog input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+dialog button { 
+    margin-top: 15px;   
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btnFechar{
+    padding: 20px;
+    color: #d85031;
+    margin-left: calc(90%);
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#btnEntrar{
+    background-color: rgb(46, 183, 106) ;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#sobre {
+    padding: 40px 0;
+    margin: 0px;
+    background: linear-gradient(to bottom, #000000, #0939c7);
+    /*background-color: #f4f4f9;*/
+    padding-top: 30vh;
+    height: 60vh;
+    text-align: center;
+}
+
+#cardapio{
+    padding: 40px 0;
+    margin: 0px;
+    /*background: linear-gradient(to bottom, #000000, #0939c7);*/
+    background-color: #000000;
+    padding-top: 30vh;
+    height: 60vh;
+    text-align: center;
+}   
