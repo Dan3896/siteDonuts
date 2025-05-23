@@ -111,6 +111,7 @@ nav a:last-child{margin-left: auto;}
     flex-basis: calc(30%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex-grow: 1;
+    display: block;
 }
 
 .carros-destaque div h3 {
@@ -191,6 +192,7 @@ footer {
     padding-top: 30vh;
     height: 60vh;
     text-align: center;
+    display: block;
 }
 
 #cardapio{
