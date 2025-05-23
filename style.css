@@ -8,6 +8,42 @@ body{
     background-color: #000000;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .display {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column; /* Organiza imagem e texto em coluna */
+        align-items: center;
+        text-align: center;
+    }
+
+    .display img {
+        width: 100%;       /* Faz a imagem ocupar toda a largura da div */
+        height: auto;      /* Mantém a proporção */
+        max-width: 100%;   /* Garante que não ultrapasse o container */
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    nav a {
+        padding: 10px;
+    }
+}
+
 nav{
     background-color: #000000;
     position: fixed;
