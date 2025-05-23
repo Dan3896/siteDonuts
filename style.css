@@ -52,6 +52,8 @@ nav{
     top: 0;
     left: 0;
     right: 0;
+    height: 60px;
+    z-index: 1000;
 }
 
 nav a {
@@ -220,13 +222,19 @@ footer {
     padding: 10px;
 }
 
+#sobre,
+#cardapio {
+    padding-top: 80px; /* altura estimada do menu fixo */
+    min-height: 100vh; /* garante que ocupa pelo menos a altura total da tela */
+    box-sizing: border-box;
+}
+
+
 #sobre {
     padding: 40px 0;
     margin: 0px;
     background: linear-gradient(to bottom, #000000, #6a28ac);
     /*background-color: #f4f4f9;*/
-    padding-top: 30vh;
-    height: 60vh;
     text-align: center;
     display: block;
 }
@@ -236,7 +244,7 @@ footer {
     margin: 0px;
     /*background: linear-gradient(to bottom, #000000, #0939c7);*/
     background-color: #000000;
-    padding-top: 30vh;
-    height: 60vh;
     text-align: center;
+    margin-bottom: 80px; /* dá espaço para o footer */
+    
 }   
