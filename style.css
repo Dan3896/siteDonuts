@@ -25,7 +25,7 @@ nav a {
 }
 
 nav a:hover {
-    background-image: linear-gradient(to bottom, #0939c7, #2e2779);
+    background-image: linear-gradient(to bottom, #0939c7, #6a28ac);
 }
 
 nav a:last-child{margin-left: auto;}
@@ -97,7 +97,7 @@ nav a:last-child{margin-left: auto;}
 }
 
 .carros-destaque {
-    background: linear-gradient(to bottom, #000000, #0939c7);
+    background: linear-gradient(to bottom, #000000, #6a28ac);
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -105,7 +105,7 @@ nav a:last-child{margin-left: auto;}
 }
 
 .cardapio{
-    background: linear-gradient(to bottom, #000000, #0939c7);
+    background: linear-gradient(to bottom, #000000, #6a28ac);
     padding: 15 px 0px;
     margin: 0px;
     flex-basis: calc(30%);
@@ -186,7 +186,7 @@ footer {
 #sobre {
     padding: 40px 0;
     margin: 0px;
-    background: linear-gradient(to bottom, #000000, #0939c7);
+    background: linear-gradient(to bottom, #000000, #6a28ac);
     /*background-color: #f4f4f9;*/
     padding-top: 30vh;
     height: 60vh;
