@@ -57,7 +57,7 @@ nav a:last-child{margin-left: auto;}
 
 .direciona-orcamento {
     margin-top: 5px;
-    background: linear-gradient(to bottom, #000000, #0939c7);
+    background: linear-gradient(to bottom, #000000, #5e1c87);
     /*background-color: #2554cb;*/
     color: white;
     padding: 10px 20px;
@@ -83,7 +83,7 @@ nav a:last-child{margin-left: auto;}
 }
 
 .display{
-    background: linear-gradient(to bottom, #000000, #0939c7);
+    background: linear-gradient(to bottom, #000000, #6a28ac);
     /*background-color: #fff;*/
     padding: 15px 10px;
     flex-basis: calc(30%);
